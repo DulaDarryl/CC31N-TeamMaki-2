@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>CC31N_TeamMaki</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1123123.PNG" />
+    <None Remove="Capture.PNG" />
+    <None Remove="game messages.PNG" />
+    <None Remove="inventory.PNG" />
+    <None Remove="item.PNG" />
+    <None Remove="loc.PNG" />
+    <None Remove="Menu.PNG" />
+    <None Remove="navi.PNG" />
+    <None Remove="player infor.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1123123.PNG" />
+    <Resource Include="Capture.PNG" />
+    <Resource Include="game messages.PNG" />
+    <Resource Include="inventory.PNG" />
+    <Resource Include="item.PNG" />
+    <Resource Include="loc.PNG" />
+    <Resource Include="Menu.PNG" />
+    <Resource Include="navi.PNG" />
+    <Resource Include="player infor.PNG" />
+  </ItemGroup>
+
+</Project>
